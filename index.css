@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4 )), url(ty.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+#header{
+    height: 70px;
+    width: 100%;
+}
+#logo{
+    height: 50px;
+    width: auto;
+    padding: 11px 20px;
+}
+ul{
+    float: right;
+    margin-right: 370px;
+}
+ul li{
+    font-size: 21px;
+    display: inline-flex;
+    padding: 22px 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+#search{
+    float: right;
+    margin: -54px 80px;
+    height: 27px;
+    width: 190px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    outline: none;
+    cursor:text;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align:center;
+
+}
+#submit{
+    float: right;
+    margin: -54px 38px;
+    height: 27px;
+    width: 60px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    background-color: #ff7b25;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+   
+}
+ul li a:hover {
+    color: red;
+}
+.content{
+    margin-right: 420px;
+    text-align: center;
+   
+}
+#main{
+    color: white;
+    margin-top: 220px;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    padding-left: 224px;
+}
+#para{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-right: 21px;
+
+}
+#btn{
+    height: 40px;
+    width: 113px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btn2{
+    height: 40px;
+    width: 113px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 37px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: red;
+    transition: 1s;
+}
+#btn2:hover{
+    background-color: red;
+    transition: 1s; 
+}  
+#form{
+    border: 1px solid white;
+    height: 319px;
+    width: 271px;
+    margin-left: 923px;
+    margin-top: -295px;
+    border-radius: 6px;
+}
+
+#form h1{
+    color: white;
+    font-family: Arial rounded MT;
+    font-size: 25px;
+    margin-top: 20px;
+}
+#form #name{
+    height: 25px;
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none; 
+     background-color: transparent;
+     color: white;
+     font-family: Arial rounded MT;
+     font-size: 14px;
+}
+#form #email{
+    height: 25px;
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-family: Arial rounded MT;
+
+
+}
+#form #password{
+    height: 25px;
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-family: Arial rounded MT;
+
+}
+#form #name1 {
+    color: white;
+    font-family: Arial rounded MT;
+    margin-right: 172px;
+
+}
+#form #code{
+    color: white;
+    font-family: Arial rounded MT;
+    margin-right: 143px;
+}
+#btn5{
+    height: 31px;
+    width: 227px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: Arial rounded MT;
+    font-size: 16px;
+    background: transparent;
+    color: white;
+}
+#btn5:hover{
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
